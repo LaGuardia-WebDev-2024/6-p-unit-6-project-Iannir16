@@ -12,7 +12,15 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
+  //background
+  
+ellipse(200, 150, 500, 500);
+ellipse(71,100,170,110)
+ellipse(320,100,170,110)
+rect(155,0,80,250)
+ellipse(200,320,170,90)
+ellipse(70,86,80,80)
+ellipse(320,86,80,80)
   
 
 }
