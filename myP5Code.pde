@@ -7,21 +7,27 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(102,0,204);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
   //background
-  
+  fill(255,178,102)
 ellipse(200, 150, 500, 500);
+
+  //eyes
+fill(246,205,124)
 ellipse(71,100,170,110)
 ellipse(320,100,170,110)
-rect(155,0,80,250)
-ellipse(200,320,170,90)
-ellipse(70,86,80,80)
+fill(51,153,255)
 ellipse(320,86,80,80)
-  
+ellipse(70,86,80,80)
+
+  //nose(mouth)
+fill(216,44,44)
+ellipse(200,320,170,90)
+  rect(155,0,80,250)
 
 }
 
